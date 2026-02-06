@@ -38,9 +38,6 @@ ENV/
 *~
 
 # Data files (large CSV files)
-data/*.csv
-data/poisoned/
-
 # Results and outputs
 results/
 *.png
