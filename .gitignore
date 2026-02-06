@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (large CSV files)
+data/*.csv
+data/poisoned/
+
+# Results and outputs
+results/
+*.png
+*.jpg
+*.pdf
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model weights
+*.npy
+*.pkl
+*.h5
+
+# Logs
+*.log
+logs/
