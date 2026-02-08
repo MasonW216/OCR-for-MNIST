@@ -17,8 +17,10 @@ def load_mnist(filepath):
 
     return test_y, test_x, training_y, training_x, m, n
 
+#changes dataset values from 0-255 to 0-1 which makes it easier for the neural network to process
 def normalise(data_x):
     return data_x/255.0
 
-test_y, test_x, training_y, training_x = load_mnist("/Users/masonwang/Documents/Code/MNIST OCR ML/OCR-for-MNIST/data/mnist_test.csv")
+#calling functions
+test_y, test_x, training_y, training_x, m, n = load_mnist("/Users/masonwang/Documents/Code/MNIST OCR ML/OCR-for-MNIST/data/mnist_test.csv")
 ntraining_x = normalise(training_x)
